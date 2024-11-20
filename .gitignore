@@ -1,0 +1,57 @@
+# Python Bytecode Files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment Variables
+.env
+*.env
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Django Specific
+db.sqlite3
+*.log
+/media/
+staticfiles/
+static/
+
+# IDE Specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Cache and Temporary Files
+*.swp
+*.swo
+*.egg-info/
+*.eggs/
+*.bak
+*.tmp
+*.temp
+
+# Test Coverage Reports
+htmlcov/
+.coverage
+*.cover
+.pytest_cache/
+.tox/
+.nox/
+
+# Deployment Files
+*.pot
+*.po
+*.mo
+
+# Miscellaneous
+node_modules/
+dist/
+build/
